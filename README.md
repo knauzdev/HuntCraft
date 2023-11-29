@@ -16,3 +16,6 @@ A WoW 3.3.5 Modding Project that combines the game mechanics of Hunt: Showdown a
 [![Watch the video](https://img.youtube.com/vi/CvmnAJPkKck/0.jpg)](https://youtu.be/CvmnAJPkKck)
 
 [![Watch the video](https://img.youtube.com/vi/I3_1GVudo-I/0.jpg)](https://youtu.be/I3_1GVudo-I)
+
+# Credits
+**Moldred:** Login-Screen Framework (original release seems to be lost to time but a reupload can be found here: https://github.com/haephaistoss/LoginScreen-by-Mordred) 
