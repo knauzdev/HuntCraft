@@ -5,12 +5,13 @@ A WoW 3.3.5 Modding Project that combines the game mechanics of Hunt: Showdown a
 
 *(prior experience with WoW Modding is recommended)*
 
-1. Pack the "PATCH-V.MPC" folder into a WoW 3.3.5 MPQ-patch using MPQEditor and place it in your Data folder.
-2. Download or build TrinityCore with Eluna: https://github.com/ElunaLuaEngine/ElunaTrinityWotlk
-3. Place the "lua_scripts" folder inside your TrinityCore+Eluna folder.
-4. Setup your server: https://trinitycore.info/install/Core-Installation/windows-core-installation
-5. Copy the .dbc files from "PATCH-V.MPC/DBFilesClient" into your server "dbc" folder.
-6. Should be good to go.
+1. Find and download a WoW 3.3.5.12340 client.
+2. Pack the "PATCH-V.MPC" folder into a WoW 3.3.5 MPQ-patch using MPQEditor and place it in your Data folder.
+3. Download or build TrinityCore with Eluna: https://github.com/ElunaLuaEngine/ElunaTrinityWotlk
+4. Place the "lua_scripts" folder inside your TrinityCore+Eluna folder.
+5. Setup your server: https://trinitycore.info/install/Core-Installation/windows-core-installation
+6. Copy the .dbc files from "PATCH-V.MPC/DBFilesClient" into your server "dbc" folder.
+7. Should be good to go.
 
 # Videos: 
 
