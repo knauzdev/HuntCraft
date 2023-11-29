@@ -10,7 +10,7 @@ A WoW 3.3.5 modding project that combines the game mechanics of Hunt: Showdown a
 3. Download or build TrinityCore with Eluna: https://github.com/ElunaLuaEngine/ElunaTrinityWotlk
 4. Place the "lua_scripts" folder inside your TrinityCore+Eluna folder.
 5. Setup your server: https://trinitycore.info/install/Core-Installation/windows-core-installation
-6. Once trinitycore has set up the database for you: Run the "huntcraft world.sql" SQL-file, this should add the missing server db entries for you.
+6. Once TrinityCore has set up the database for you: Run the "huntcraft world.sql" SQL-file, this should add the missing server db entries for you.
 7. Copy the .dbc files from "PATCH-V.MPC/DBFilesClient" into your server "dbc" folder.
 8. Should be good to go.
 
