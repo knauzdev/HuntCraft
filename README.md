@@ -9,7 +9,8 @@ A WoW 3.3.5 Modding Project that combines the game mechanics of Hunt: Showdown a
 2. Download or build TrinityCore with Eluna: https://github.com/ElunaLuaEngine/ElunaTrinityWotlk
 3. Place the "lua_scripts" folder inside your TrinityCore+Eluna folder.
 4. Setup your server: https://trinitycore.info/install/Core-Installation/windows-core-installation
-5. Should be good to go.
+5. Copy the .dbc files from "PATCH-V.MPC/DBFilesClient" into your server "dbc" folder.
+6. Should be good to go.
 
 # Videos: 
 
