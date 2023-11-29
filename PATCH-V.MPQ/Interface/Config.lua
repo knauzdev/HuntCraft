@@ -1,0 +1,10 @@
+
+-- modules:
+LOAD_LOGINSCENE_TOOL = false
+LOAD_REALMLIST_CHANGER = false
+
+-- miscellanous:
+ENABLE_SAVE_PASSWORD = true
+
+ENABLE_WOW_LOGO = true
+WOW_LOGO_POSITION = "TOPLEFT"
