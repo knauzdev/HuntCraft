@@ -1,17 +1,17 @@
 # HuntCraft
 A WoW 3.3.5 Modding Project that combines the game mechanics of Hunt: Showdown and World of Warcraft. In this repository you'll find the client patch and Eluna scripts allowing you to run it yourself or just see how it was made. Fair warning, the server-side scripting is terrible and needs a full rewrite :P
 
-#Instructions 
+# Instructions
 
 *(prior experience with WoW Modding is recommended)*
 
 1. Pack the "PATCH-V.MPC" folder into a WoW 3.3.5 MPQ-patch using MPQEditor and place it in your Data folder.
 2. Download or build TrinityCore with Eluna: https://github.com/ElunaLuaEngine/ElunaTrinityWotlk
-3. Place the scripts "lua_scripts" folder inside your built TrinityCore+Eluna folder.
-4. Setup your server; https://trinitycore.info/install/Core-Installation/windows-core-installation
+3. Place the "lua_scripts" folder inside your TrinityCore+Eluna folder.
+4. Setup your server: https://trinitycore.info/install/Core-Installation/windows-core-installation
 5. Should be good to go.
 
-Videos: 
+# Videos: 
 
 [![Watch the video](https://img.youtube.com/vi/CvmnAJPkKck/0.jpg)](https://youtu.be/CvmnAJPkKck)
 
