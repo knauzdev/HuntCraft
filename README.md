@@ -3,10 +3,10 @@ A WoW 3.3.5 modding project that combines the game mechanics of Hunt: Showdown a
 
 **Fair warning:** this is more like a proof of concept, the scripting is kinda awful, there are bugs and not a lot to do other than the most basic gameplay loop.
 
-![Login Screen Screenshot](https://i.imgur.com/sYuGXD6.jpg)
-![Spider Boss Screenshot](https://i.imgur.com/mmZMl0k.jpg)
-![Banishing Boss Screenshot](https://i.imgur.com/oSyptQK.jpg)
-![Bounty Token Screenshot](https://i.imgur.com/suCNxnY.jpg)
+![Login Screen Screenshot](Screenshots/login.jpg)
+![Spider Boss Screenshot](Screenshots/boss.jpg)
+![Banishing Boss Screenshot](Screenshots/boss3.jpg)
+![Bounty Token Screenshot](Screenshots/boss4.jpg)
 Full Screenshot showcase: https://imgur.com/a/F2yb7Sm 
 
 # Features
