@@ -13,6 +13,7 @@ Full Screenshot showcase: https://imgur.com/a/F2yb7Sm
 - Boss spawning and bounty system scripting.
 - Custom AI scripting.
 - Custom client-side UI for map markers.
+- Custom Login- and Character Select-screens
 - New items, consumables, NPCs and vendors.
 
 # Instructions
