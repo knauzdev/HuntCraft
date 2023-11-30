@@ -1,6 +1,11 @@
 # HuntCraft
 A WoW 3.3.5 modding project that combines the game mechanics of Hunt: Showdown and World of Warcraft created over the course of 1 month. In this repository you'll find the client patch and Eluna scripts allowing you to run it yourself or just see how it was made. Fair warning, the server-side scripting is terrible and needs a full rewrite :P
 
+![Alt text](https://i.imgur.com/mmZMl0k.jpg)
+![Alt text](https://i.imgur.com/oSyptQK.jpg)
+![Alt text](https://i.imgur.com/suCNxnY.jpg)
+Full Screenshot showcase: https://imgur.com/a/F2yb7Sm 
+
 # Instructions
 
 *(prior experience with WoW Modding is recommended)*
