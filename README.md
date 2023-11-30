@@ -14,6 +14,8 @@ A WoW 3.3.5 modding project that combines the game mechanics of Hunt: Showdown a
 7. Copy the .dbc files from "PATCH-V.MPC/DBFilesClient" into your server "dbc" folder.
 8. Should be good to go.
 
+Once in game teleport to map id: 725.
+
 # Videos: 
 
 [![Watch the video](https://img.youtube.com/vi/CvmnAJPkKck/0.jpg)](https://youtu.be/CvmnAJPkKck)
