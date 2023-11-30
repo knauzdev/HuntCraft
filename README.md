@@ -7,7 +7,6 @@ A WoW 3.3.5 modding project that combines the game mechanics of Hunt: Showdown a
 ![Spider Boss Screenshot](https://i.imgur.com/mmZMl0k.jpg)
 ![Banishing Boss Screenshot](https://i.imgur.com/oSyptQK.jpg)
 ![Bounty Token Screenshot](https://i.imgur.com/suCNxnY.jpg)
-
 Full Screenshot showcase: https://imgur.com/a/F2yb7Sm 
 
 # Features
