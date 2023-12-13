@@ -2,7 +2,7 @@
   <img width="500" src="https://github.com/knauzdev/HuntCraft/blob/main/logo.png" />
 </p>
 
-A WoW 3.3.5 modding project that combines the game mechanics of Hunt: Showdown and World of Warcraft created over the course of 1 month. In this repository you'll find the client patch and Eluna scripts needed to run it yourself or just see how it was made. 
+A WoW 3.3.5 modding project that combines the game mechanics and world of Hunt: Showdown and World of Warcraft created over the course of 1 month. In this repository you'll find the client patch and Eluna scripts needed to run it yourself or just see how it was made. 
 
 **Fair warning:** this is more like a proof of concept, the scripting is kinda awful, there are bugs and not a lot to do other than the most basic gameplay loop.
 
@@ -10,6 +10,7 @@ A WoW 3.3.5 modding project that combines the game mechanics of Hunt: Showdown a
 ![Spider Boss Screenshot](Screenshots/boss.jpg)
 ![Banishing Boss Screenshot](Screenshots/boss3.jpg)
 ![Bounty Token Screenshot](Screenshots/boss4.jpg)
+![Bounty Token Screenshot](Screenshots/whitehouse1.jpg)
 Full Screenshot showcase: https://imgur.com/a/F2yb7Sm 
 
 # Features
