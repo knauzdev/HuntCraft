@@ -16,7 +16,7 @@ Full Screenshot showcase: https://imgur.com/a/F2yb7Sm
 - Custom map based on the "Lawson Delta" Hunt map.
 - Boss spawning and bounty system scripting.
 - Custom AI scripting.
-- Custom client-side UI for map markers.
+- Custom client-side UI for map markers and boss announcements.
 - Custom Login- and Character Select-screens.
 - New items, consumables, NPCs and vendors.
 
