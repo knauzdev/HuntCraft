@@ -597,6 +597,51 @@ CREATE TABLE IF NOT EXISTS `quest_template_addon` (
 INSERT INTO `quest_template_addon` (`ID`, `MaxLevel`, `AllowableClasses`, `SourceSpellID`, `PrevQuestID`, `NextQuestID`, `ExclusiveGroup`, `BreadcrumbForQuestId`, `RewardMailTemplateID`, `RewardMailDelay`, `RequiredSkillID`, `RequiredSkillPoints`, `RequiredMinRepFaction`, `RequiredMaxRepFaction`, `RequiredMinRepValue`, `RequiredMaxRepValue`, `ProvidedItemCount`, `SpecialFlags`) VALUES
 	(26035, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1);
 
+-- Dumping structure for table world.smart_scripts
+CREATE TABLE IF NOT EXISTS `smart_scripts` (
+  `entryorguid` int NOT NULL,
+  `source_type` tinyint unsigned NOT NULL DEFAULT '0',
+  `id` smallint unsigned NOT NULL DEFAULT '0',
+  `link` smallint unsigned NOT NULL DEFAULT '0',
+  `event_type` tinyint unsigned NOT NULL DEFAULT '0',
+  `event_phase_mask` smallint unsigned NOT NULL DEFAULT '0',
+  `event_chance` tinyint unsigned NOT NULL DEFAULT '100',
+  `event_flags` smallint unsigned NOT NULL DEFAULT '0',
+  `event_param1` int unsigned NOT NULL DEFAULT '0',
+  `event_param2` int unsigned NOT NULL DEFAULT '0',
+  `event_param3` int unsigned NOT NULL DEFAULT '0',
+  `event_param4` int unsigned NOT NULL DEFAULT '0',
+  `event_param5` int unsigned NOT NULL DEFAULT '0',
+  `action_type` tinyint unsigned NOT NULL DEFAULT '0',
+  `action_param1` int unsigned NOT NULL DEFAULT '0',
+  `action_param2` int unsigned NOT NULL DEFAULT '0',
+  `action_param3` int unsigned NOT NULL DEFAULT '0',
+  `action_param4` int unsigned NOT NULL DEFAULT '0',
+  `action_param5` int unsigned NOT NULL DEFAULT '0',
+  `action_param6` int unsigned NOT NULL DEFAULT '0',
+  `target_type` tinyint unsigned NOT NULL DEFAULT '0',
+  `target_param1` int unsigned NOT NULL DEFAULT '0',
+  `target_param2` int unsigned NOT NULL DEFAULT '0',
+  `target_param3` int unsigned NOT NULL DEFAULT '0',
+  `target_param4` int unsigned NOT NULL DEFAULT '0',
+  `target_x` float NOT NULL DEFAULT '0',
+  `target_y` float NOT NULL DEFAULT '0',
+  `target_z` float NOT NULL DEFAULT '0',
+  `target_o` float NOT NULL DEFAULT '0',
+  `comment` mediumtext CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Event Comment',
+  PRIMARY KEY (`entryorguid`,`source_type`,`id`,`link`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- Dumping data for table world.smart_scripts: ~48 261 rows (approximately)
+INSERT INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_type`, `event_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `event_param5`, `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param6`, `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_param4`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) VALUES
+	
+	(43383, 0, 0, 0, 33, 0, 85, 0, 0, 20000, 2500, 5000, 0, 11, 80870, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 'On creature dealt damage to victim between 0 - 20000 HP (wait 2500 - 5000 ms before next event trigger) - Self: Cast spell  Poison (80870) on Victim'),
+	(43391, 0, 0, 0, 10, 0, 100, 0, 0, 20, 0, 0, 0, 49, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 'On only hostile unit in line of sight (OOC) - Self: Attack Unit in LOS'),
+	(43392, 0, 0, 0, 33, 0, 100, 0, 0, 10000, 0, 0, 0, 11, 80870, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 'On creature dealt damage to victim between 0 - 10000 HP - Self: Cast spell  Poison (80870) on Victim'),
+	(43393, 0, 0, 0, 10, 0, 100, 0, 0, 0, 0, 0, 0, 11, 80871, 32, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 'On only hostile unit in line of sight (OOC) - Self: Cast spell  Hive Swarm (80871) with flags aura not present on Victim'),
+	(43393, 0, 1, 0, 33, 0, 100, 0, 0, 10000, 0, 0, 0, 11, 80871, 32, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 'On creature dealt damage to victim between 0 - 10000 HP - Self: Cast spell  Hive Swarm (80871) with flags aura not present on Attacked unit');
+
+
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
