@@ -14,10 +14,10 @@ A WoW 3.3.5 modding project that combines the game mechanics and world of Hunt: 
 Full Screenshot showcase: https://imgur.com/a/F2yb7Sm 
 
 # Features
-- Custom map based on the "Lawson Delta" Hunt map.
+- Map based on the "Lawson Delta" Hunt map.
 - Boss spawning and bounty system scripting.
 - Custom AI scripting.
-- Custom client-side UI for map markers and boss announcements.
+- Client-side UI for map markers and boss announcements.
 - Custom Login- and Character Select-screens.
 - New items, consumables, NPCs and vendors.
 
