@@ -7,7 +7,7 @@ A WoW 3.3.5 modding project that combines the game mechanics and world of Hunt: 
 **Fair warning:** this is more like a proof of concept, the scripting is kinda awful, there are bugs and not a lot to do other than the most basic gameplay loop.
 
 ![Login Screen Screenshot](Screenshots/login.jpg)
-![Spider Boss Screenshot](Screenshots/boss.jpg)
+![Spider Boss Screenshot](Screenshots/blanc.jpg)
 ![Banishing Boss Screenshot](Screenshots/boss3.jpg)
 ![Bounty Token Screenshot](Screenshots/boss4.jpg)
 ![Bounty Token Screenshot](Screenshots/whitehouse1.jpg)
