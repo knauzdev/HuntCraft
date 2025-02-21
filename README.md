@@ -8,7 +8,8 @@ A WoW 3.3.5 modding project that combines the game mechanics and world of Hunt: 
 
 ![Login Screen Screenshot](Screenshots/login.jpg)
 ![Blanc Location Screenshot](Screenshots/blanc1.jpg)
-![Banishing Boss Screenshot](Screenshots/boss3.jpg)
+![Banishing Boss Screenshot](Screenshots/traits.jpg)
+![Banishing Boss Screenshot](Screenshots/items.jpg)
 ![Bounty Token Screenshot](Screenshots/boss4.jpg)
 ![Bounty Carrier Map Icon](Screenshots/map1.jpg)
 Full Screenshot showcase: https://imgur.com/a/F2yb7Sm 
